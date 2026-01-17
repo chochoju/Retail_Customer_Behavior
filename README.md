@@ -1,304 +1,304 @@
-\# Retail Customer Behavior \& Shopping Trends Analysis
+# \# Retail Customer Behavior \& Shopping Trends Analysis
 
+# 
 
+# \## Project Overview
 
-\## Project Overview
+# 
 
+# This project is an \*\*end-to-end retail analytics case study\*\* designed to simulate a real-world data analyst workflow.
 
+# 
 
-This project is an \*\*end-to-end retail analytics case study\*\* designed to simulate a real-world data analyst workflow.
+# It focuses on understanding \*\*sales trends,\*\* \*\*customer segmentation \& shopping behavior, and product performance\*\* using \*\*Python, SQL (PostgreSQL), and Power BI\*\*.
 
+# 
 
+# The project emphasizes:
 
-It focuses on understanding \*\*sales trends,\*\* \*\*customer segmentation \& shopping behavior, and product performance\*\* using \*\*Python, SQL (PostgreSQL), and Power BI\*\*.
+# 
 
+# \- realistic business logic
 
+# \- data quality issues
 
-The project emphasizes:
+# \- clear analytical storytelling
 
+# \- executive-ready dashboards
 
+# 
 
-\- realistic business logic
+# ---
 
-\- data quality issues
+# 
 
-\- clear analytical storytelling
+# \## Business Problem
 
-\- executive-ready dashboards
+# 
 
+# A mid-sized omnichannel retail company wants to better understand:
 
+# 
 
----
+# \- How different \*\*customer segments\*\* behave
 
+# \- Which \*\*products and categories\*\* drive revenue
 
+# \- How \*\*promotions and discounts\*\* impact sales
 
-\## Business Problem
+# \- Whether \*\*loyal customers\*\* are more valuable
 
+# \- How \*\*seasonality and demographics\*\* influence purchasing patterns
 
+# 
 
-A mid-sized omnichannel retail company wants to better understand:
+# The company’s goal is to use data to improve \*\*customer retention, optimize promotions, and identify growth opportunities\*\* across product categories
 
+# 
 
+# ---
 
-\- How different \*\*customer segments\*\* behave
+# 
 
-\- Which \*\*products and categories\*\* drive revenue
+# \## Dataset Description
 
-\- How \*\*promotions and discounts\*\* impact sales
+# 
 
-\- Whether \*\*loyal customers\*\* are more valuable
+# The dataset is designed to resemble \*\*real-world retail data\*\*, including common data issues.
 
-\- How \*\*seasonality and demographics\*\* influence purchasing patterns
+# 
 
+# \### Tables
 
+# 
 
-The company’s goal is to use data to improve \*\*customer retention, optimize promotions, and identify growth opportunities\*\* across product categories
+# \- \*\*orders\*\*
 
+# \- \*\*customers\*\*
 
+# \- \*\*products\*\*
 
----
+# \- \*\*categories\*\*
 
+# 
 
+# \### Key Characteristics
 
-\## Dataset Description
+# 
 
+# \- 5 years of data (2019–2023), ~100 orders per day
 
+# \- Seasonal sales spikes (holiday lift)
 
-The dataset is designed to resemble \*\*real-world retail data\*\*, including common data issues.
+# \- Gender and age-driven purchasing behavior
 
+# \- Data quality issues: missing values, duplicates, and inconsistent formats.
 
+# 
 
-\### Tables
+# ---
 
+# 
 
+# \## Tools \& Technologies
 
-\- \*\*orders\*\*
+# 
 
-\- \*\*customers\*\*
+# \- \*\*Python\*\* (Pandas, NumPy, Matplotlib): data loading, cleaning, manipulation, EDA
 
-\- \*\*products\*\*
+# \- \*\*PostgreSQL:\*\* business logic, analytical SQL queries
 
-\- \*\*categories\*\*
+# \- \*\*Power BI:\*\* interactive dashboards \& storytelling
 
+# \- \*\*Jupyter Notebook:\*\* reproducible analysis workflow
 
+# 
 
-\### Key Characteristics
+# ---
 
+# 
 
+# \## Project Workflow
 
-\- 5 years of data (2019–2023), ~100 orders per day
+# 
 
-\- Seasonal sales spikes (holiday lift)
+# \### 1. Data Import \& Exploration (Python)
 
-\- Gender and age-driven purchasing behavior
+# 
 
-\- Data quality issues: missing values, duplicates, and inconsistent formats.
+# \- Load multiple CSV files
 
+# \- Inspect schema \& data quality
 
+# \- Identify missing values, duplicates, inconsistencies
 
----
+# \- Normalize:
 
+# &nbsp;   - dates \& times
 
+# &nbsp;   - state/location fields
 
-\## Tools \& Technologies
+# &nbsp;   - customer attributes
 
+# 
 
+# \### 2. Data Cleaning \& Feature Engineering (Python)
 
-\- \*\*Python\*\* (Pandas, NumPy, Matplotlib): data loading, cleaning, manipulation, EDA
+# 
 
-\- \*\*PostgreSQL:\*\* business logic, analytical SQL queries
+# \- Handle missing prices using hybrid strategies
 
-\- \*\*Power BI:\*\* interactive dashboards \& storytelling
+# \- Remove or flag duplicate records
 
-\- \*\*Jupyter Notebook:\*\* reproducible analysis workflow
+# \- Create derived fields:
 
+# &nbsp;   - Age Group (Young adults / Adults / Senior)
 
+# &nbsp;   - Customer Segment (New / Returning / Loyal)
 
----
+# &nbsp;   - Revenue, units sold, discount flags
 
+# 
 
+# \### 3. Exploratory Data Analysis (Python)
 
-\## Project Workflow
+# 
 
+# \- Revenue trends history (Monthly)
 
+# \- Seasonality analysis
 
-\### 1. Data Import \& Exploration (Python)
+# \- Customer demographics \& behavior
 
+# \- Product and category performance
 
+# 
 
-\- Load multiple CSV files
+# \### 4. Business Analysis (PostgreSQL)
 
-\- Inspect schema \& data quality
+# 
 
-\- Identify missing values, duplicates, inconsistencies
+# \- Load \*\*cleaned tables\*\* directly from Jupyter Notebook into PostgreSQL
 
-\- Normalize:
+# \- Write analytical SQL queries to answer business questions:
 
-&nbsp;   - dates \& times
+# &nbsp;   - Customer profile \& Demographics
 
-&nbsp;   - state/location fields
+# &nbsp;   - Revenue Contribution by Demographics
 
-&nbsp;   - customer attributes
+# &nbsp;   - Customer Purchase Behavior (e.g., Shipping, Discount usage)
 
+# &nbsp;   - Product and Category Performance (e.g., Top-selling products)
 
+# &nbsp;   - Promotion Effectiveness (e.g., Discount dependency by loyalty level)
 
-\### 2. Data Cleaning \& Feature Engineering (Python)
+# \- Queries written with clarity and reusability
 
+# 
 
+# \### 5. Dashboard Creation (Power BI)
 
-\- Handle missing prices using hybrid strategies
+# 
 
-\- Remove or flag duplicate records
+# \### 1) Executive Overview
 
-\- Create derived fields:
+# 
 
-&nbsp;   - Age Group (Young adults / Adults / Senior)
+# \- KPIs: Revenue, Orders, Customers, AOV
 
-&nbsp;   - Customer Segment (New / Returning / Loyal)
+# \- Revenue trends by time, category, gender, age group
 
-&nbsp;   - Revenue, units sold, discount flags
+# \- High-level business health view
 
+# 
 
+# \### 2) Customer Segmentation \& Behavior
 
-\### 3. Exploratory Data Analysis (Python)
+# 
 
+# \- New vs Returning vs Loyal customers
 
+# \- Loyalty impact on spend \& discounts
 
-\- Revenue trends history (Monthly)
+# \- Category preference by gender \& age Group
 
-\- Seasonality analysis
+# \- Promotion popularity trend
 
-\- Customer demographics \& behavior
+# \- High-value customer list
 
-\- Product and category performance
+# 
 
+# \### 3) Product Performance
 
+# 
 
-\### 4. Business Analysis (PostgreSQL)
+# \- Top products by revenue \& units sold
 
+# \- Best-selling products per category
 
+# \- Shipping method segment
 
-\- Load \*\*cleaned tables\*\* directly from Jupyter Notebook into PostgreSQL
+# \- Seasonal product trends
 
-\- Write analytical SQL queries to answer business questions:
+# 
 
-&nbsp;   - Customer profile \& Demographics
+# ---
 
-&nbsp;   - Revenue Contribution by Demographics
+# 
 
-&nbsp;   - Customer Purchase Behavior (e.g., Shipping, Discount usage)
+# \## Key Insights
 
-&nbsp;   - Product and Category Performance (e.g., Top-selling products)
+# 
 
-&nbsp;   - Promotion Effectiveness (e.g., Discount dependency by loyalty level)
+# \- \*\*Electronics and Home Improvement categories dominate total revenue\*\* and exhibit the \*\*strongest seasonal uplift\*\*, particularly during Q4, indicating that these are the primary drivers of both baseline and holiday sales.
 
-\- Queries written with clarity and reusability
+# \- \*\*Loyal and high-value customers consistently spend more regardless of discount usage\*\*, suggesting that their spending behavior is driven more by product value and brand affinity than by promotional incentives.
 
+# \- \*\*Shipping method has little impact on average order value\*\*, suggesting that fulfillment speed affects convenience more than purchase size.
 
+# \- \*\*Promotions significantly increase order volume but not average spend,\*\*  implying that promotions are more effective as a demand accelerator than as a revenue uplift per order.
 
-\### 5. Dashboard Creation (Power BI)
+# \- \*\*Customer demographics (gender and age group) show distinct category preferences\*\*, highlighting opportunities for targeted marketing and merchandising strategies.
 
+# 
 
+# ---
 
-\### 1) Executive Overview
+# 
 
+# \## How to Run This Project
 
+# 
 
-\- KPIs: Revenue, Orders, Customers, AOV
+# 1\. Clone the repository
 
-\- Revenue trends by time, category, gender, age group
+# 2\. Run notebooks in order:
 
-\- High-level business health view
+# &nbsp;   - Data cleaning
 
+# &nbsp;   - EDA
 
+# 3\. Load cleaned CSVs into PostgreSQL
 
-\### 2) Customer Segmentation \& Behavior
+# 4\. Execute SQL queries
 
+# 5\. Open Power BI file and refresh data
 
+# 
 
-\- New vs Returning vs Loyal customers
+# ---
 
-\- Loyalty impact on spend \& discounts
+# 
 
-\- Category preference by gender \& age Group
+# \## Contact
 
-\- Promotion popularity trend
+# 
 
-\- High-value customer list
+# If you’d like to discuss this project or my work:
 
+# 
 
+# \- \*\*LinkedIn:\*\* https://www.linkedin.com/in/juyeon-cho/
 
-\### 3) Product Performance
-
-
-
-\- Top products by revenue \& units sold
-
-\- Best-selling products per category
-
-\- Shipping method segment
-
-\- Seasonal product trends
-
-
-
----
-
-
-
-\## Key Insights
-
-
-
-\- \*\*Electronics and Home Improvement categories dominate total revenue\*\* and exhibit the \*\*strongest seasonal uplift\*\*, particularly during Q4, indicating that these are the primary drivers of both baseline and holiday sales.
-
-\- \*\*Loyal and high-value customers consistently spend more regardless of discount usage\*\*, suggesting that their spending behavior is driven more by product value and brand affinity than by promotional incentives.
-
-\- \*\*Shipping method has little impact on average order value\*\*, suggesting that fulfillment speed affects convenience more than purchase size.
-
-\- \*\*Promotions significantly increase order volume but not average spend,\*\*  implying that promotions are more effective as a demand accelerator than as a revenue uplift per order.
-
-\- \*\*Customer demographics (gender and age group) show distinct category preferences\*\*, highlighting opportunities for targeted marketing and merchandising strategies.
-
-
-
----
-
-
-
-\## How to Run This Project
-
-
-
-1\. Clone the repository
-
-2\. Run notebooks in order:
-
-&nbsp;   - Data cleaning
-
-&nbsp;   - EDA
-
-3\. Load cleaned CSVs into PostgreSQL
-
-4\. Execute SQL queries
-
-5\. Open Power BI file and refresh data
-
-
-
----
-
-
-
-\## Contact
-
-
-
-If you’d like to discuss this project or my work:
-
-
-
-\- \*\*LinkedIn:\*\* https://www.linkedin.com/in/juyeon-cho/
-
-\- \*\*Email:\*\* \[jc973@alumni.duke.edu](mailto:jc973@alumni.duke.edu)
+# \- \*\*Email:\*\* jc973@alumni.duke.edu
 
