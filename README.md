@@ -1,10 +1,5 @@
 # Retail Customer Behavior & Sales Performance Analysis
 
-
----
-
-
-
 ## Project Overview
 
 
