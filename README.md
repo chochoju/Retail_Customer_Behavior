@@ -1,4 +1,10 @@
-# Retail Customer Behavior & Shopping Trends Analysis
+# Retail Customer Behavior & Sales Performance Analysis
+
+
+
+---
+
+
 
 ## Project Overview
 
