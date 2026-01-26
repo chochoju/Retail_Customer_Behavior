@@ -263,6 +263,22 @@ The dataset is designed to resemble **real-world retail data**, including common
 ---
 
 
+## Repository Structure
+
+
+```
+Retail_Customer_Behavior/
+├── data/
+│   ├── raw/           # The original data files
+│   ├── processed/     # Cleaned data files
+├── notebooks/         # Jupyter notebooks for data import, cleaning, and EDA
+├── sql/               # SQL Core Business Analysis
+├── powerbi/           # Insightful Dashboard for Storytelling
+└── README.md          # Project overview & setup
+```
+
+---
+
 
 ## How to Run This Project
 
