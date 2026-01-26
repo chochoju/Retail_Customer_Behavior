@@ -1,0 +1,278 @@
+product_id,product_name,category_id,unit_price
+10001,Smartphone Basic,1,1207.48
+10002,Laptop Plus,1,1253.272
+10003,Wireless Earbuds Pro,1,1714.296
+10004,Bluetooth Speaker Mini,1,1580.296
+10005,Smartwatch Max,1,1618.144
+10006,Gaming Console Value Pack,1,1484.808
+10007,4K TV Bundle,1,959.264
+10008,Tablet Eco,1,1168.752
+10009,Wi‑Fi Router Premium,1,1203.88
+10010,Noise‑Cancel Headphones Sport,1,824.576
+10011,Camera Ultra,1,1565.344
+10012,Smart Home Hub Everyday,1,1149.424
+10013,Smartphone Basic,1,366.448
+10014,Laptop Plus,1,596.72
+10015,Wireless Earbuds Pro,1,255.336
+10016,Bluetooth Speaker Mini,1,981.816
+10017,Smartwatch Max,1,1163.216
+10018,Gaming Console Value Pack,1,692.392
+10019,4K TV Bundle,1,730.64
+10020,Tablet Eco,1,511.728
+10021,Wi‑Fi Router Premium,1,1756.416
+10022,Noise‑Cancel Headphones Sport,1,1302.656
+10023,Camera Ultra,1,359.504
+10024,Smart Home Hub Everyday,1,1624.512
+10025,Smartphone Basic,1,201.656
+10026,Laptop Plus,1,1626.76
+10027,Wireless Earbuds Pro,1,1599.344
+10028,Bluetooth Speaker Mini,1,1335.888
+10029,Smartwatch Max,1,691.424
+10030,Gaming Console Value Pack,1,1326.208
+10031,4K TV Bundle,1,1200.48
+10032,Tablet Eco,1,508.112
+10033,Wi‑Fi Router Premium,1,695.488
+10034,Noise‑Cancel Headphones Sport,1,383.064
+10035,Camera Ultra,1,339.368
+10036,Smart Home Hub Everyday,1,432.136
+10037,Smartphone Basic,1,901.44
+10038,Laptop Plus,1,425.64
+10039,Wireless Earbuds Pro,1,1678.68
+10040,Bluetooth Speaker Mini,1,359.728
+10041,Smartwatch Max,1,1430.552
+10042,Gaming Console Value Pack,1,1570.072
+10043,4K TV Bundle,1,279.248
+10044,Tablet Eco,1,893.536
+10045,Wi‑Fi Router Premium,1,1609.64
+10046,Power Drill Basic,2,257.656
+10047,Tool Set Plus,2,262.736
+10048,Paint Kit Pro,2,622.976
+10049,LED Bulb Pack Mini,2,351.84
+10050,Smart Thermostat Max,2,49.832
+10051,Measuring Tape Value Pack,2,104.208
+10052,Cordless Screwdriver Bundle,2,364.16
+10053,Wall Anchor Kit Eco,2,493.16
+10054,Caulk Sealant Premium,2,320.064
+10055,Outlet Extender Sport,2,481.808
+10056,Work Gloves Ultra,2,375.704
+10057,Ladder Everyday,2,422.472
+10058,Power Drill Basic,2,239.528
+10059,Tool Set Plus,2,396.144
+10060,Paint Kit Pro,2,40.584
+10061,LED Bulb Pack Mini,2,88.864
+10062,Smart Thermostat Max,2,409
+10063,Measuring Tape Value Pack,2,582.704
+10064,Cordless Screwdriver Bundle,2,240.912
+10065,Wall Anchor Kit Eco,2,525.928
+10066,Caulk Sealant Premium,2,131.04
+10067,Outlet Extender Sport,2,138.728
+10068,Work Gloves Ultra,2,453.48
+10069,Ladder Everyday,2,604.84
+10070,Power Drill Basic,2,121.168
+10071,Tool Set Plus,2,283.8
+10072,Paint Kit Pro,2,356.496
+10073,LED Bulb Pack Mini,2,208.768
+10074,Smart Thermostat Max,2,405.064
+10075,Measuring Tape Value Pack,2,298.384
+10076,Dog Food Basic,3,60.024
+10077,Cat Litter Plus,3,77.16
+10078,Pet Bed Pro,3,168.44
+10079,Pet Toy Mini,3,178.36
+10080,Dog Shampoo Max,3,116.16
+10081,Cat Treats Value Pack,3,142.936
+10082,Pet Collar Bundle,3,181.856
+10083,Grooming Brush Eco,3,111.232
+10084,Aquarium Filter Premium,3,173.72
+10085,Puppy Pads Sport,3,52.48
+10086,Leash Ultra,3,171.376
+10087,Bird Seed Everyday,3,95.752
+10088,Dog Food Basic,3,146.648
+10089,Cat Litter Plus,3,83.456
+10090,Pet Bed Pro,3,199.096
+10091,Pet Toy Mini,3,181.576
+10092,Dog Shampoo Max,3,196.384
+10093,Cat Treats Value Pack,3,36.28
+10094,Pet Collar Bundle,3,183.928
+10095,Grooming Brush Eco,3,86.008
+10096,Aquarium Filter Premium,3,9.576
+10097,Puppy Pads Sport,3,99.816
+10098,Leash Ultra,3,154.408
+10099,Bird Seed Everyday,3,129.648
+10100,Dog Food Basic,3,37.384
+10101,Cat Litter Plus,3,138.328
+10102,Pet Bed Pro,3,160.784
+10103,Pet Toy Mini,3,184.912
+10104,Vitamins Basic,4,160.04
+10105,Protein Powder Plus,4,103.488
+10106,Yoga Mat Pro,4,141.408
+10107,First Aid Kit Mini,4,152.76
+10108,BP Monitor Max,4,148.936
+10109,Electrolyte Mix Value Pack,4,44.232
+10110,Massage Roller Bundle,4,70.672
+10111,Digital Thermometer Eco,4,166.24
+10112,Resistance Bands Premium,4,164.072
+10113,Face Mask Pack Sport,4,44.616
+10114,Heating Pad Ultra,4,139
+10115,Sleep Aid Everyday,4,59.336
+10116,Vitamins Basic,4,20.12
+10117,Protein Powder Plus,4,56.456
+10118,Yoga Mat Pro,4,117.088
+10119,First Aid Kit Mini,4,169.752
+10120,BP Monitor Max,4,79.112
+10121,Electrolyte Mix Value Pack,4,159.408
+10122,Massage Roller Bundle,4,129.216
+10123,Digital Thermometer Eco,4,53.664
+10124,Resistance Bands Premium,4,12.464
+10125,Face Mask Pack Sport,4,162.312
+10126,Heating Pad Ultra,4,101.648
+10127,Sleep Aid Everyday,4,54.8
+10128,Vitamins Basic,4,139.96
+10129,Protein Powder Plus,4,42.448
+10130,T‑Shirt Basic,5,93.616
+10131,Hoodie Plus,5,59.392
+10132,Jeans Pro,5,38.584
+10133,Jacket Mini,5,140.904
+10134,Socks Max,5,140.304
+10135,Dress Value Pack,5,169.456
+10136,Sweater Bundle,5,110.552
+10137,Shorts Eco,5,151.08
+10138,Cap Premium,5,76.184
+10139,Scarf Sport,5,129.608
+10140,Activewear Set Ultra,5,68.4
+10141,Pajamas Everyday,5,51.376
+10142,T‑Shirt Basic,5,188.768
+10143,Hoodie Plus,5,69.624
+10144,Jeans Pro,5,148.472
+10145,Jacket Mini,5,126.504
+10146,Socks Max,5,84.672
+10147,Dress Value Pack,5,55.192
+10148,Sweater Bundle,5,24.52
+10149,Shorts Eco,5,68.416
+10150,Cap Premium,5,53.768
+10151,Scarf Sport,5,189.24
+10152,Activewear Set Ultra,5,178.624
+10153,Pajamas Everyday,5,131.472
+10154,T‑Shirt Basic,5,182.688
+10155,Hoodie Plus,5,40.664
+10156,Board Game Basic,6,35.32
+10157,Action Figure Plus,6,64.768
+10158,Puzzle Set Pro,6,96.352
+10159,Building Blocks Mini,6,44.464
+10160,Remote Car Max,6,62.936
+10161,Doll Set Value Pack,6,65.168
+10162,Card Game Bundle,6,16.36
+10163,Plush Toy Eco,6,74.032
+10164,STEM Kit Premium,6,58.464
+10165,Toy Train Sport,6,59.792
+10166,RC Drone Toy Ultra,6,118.496
+10167,Craft Kit Everyday,6,106.48
+10168,Board Game Basic,6,24.08
+10169,Action Figure Plus,6,115.608
+10170,Puzzle Set Pro,6,23.184
+10171,Building Blocks Mini,6,28.96
+10172,Remote Car Max,6,43.192
+10173,Doll Set Value Pack,6,76.192
+10174,Card Game Bundle,6,135.856
+10175,Plush Toy Eco,6,126.288
+10176,STEM Kit Premium,6,42.416
+10177,Toy Train Sport,6,24.824
+10178,Running Shoes Basic,7,211.504
+10179,Sneakers Plus,7,252.672
+10180,Sandals Pro,7,48.312
+10181,Boots Mini,7,230.312
+10182,Slippers Max,7,60.384
+10183,Loafers Value Pack,7,64.408
+10184,Hiking Shoes Bundle,7,70.784
+10185,Dress Shoes Eco,7,20.04
+10186,Flip‑Flops Premium,7,122.152
+10187,Kids Shoes Sport,7,46.68
+10188,Work Boots Ultra,7,23.472
+10189,Trail Runners Everyday,7,16.336
+10190,Running Shoes Basic,7,77.296
+10191,Sneakers Plus,7,158.856
+10192,Sandals Pro,7,248.704
+10193,Boots Mini,7,85.88
+10194,Slippers Max,7,198.848
+10195,Loafers Value Pack,7,207.384
+10196,Hiking Shoes Bundle,7,139.336
+10197,Dress Shoes Eco,7,80.6
+10198,Laundry Detergent Basic,8,50.296
+10199,Paper Towels Plus,8,76.968
+10200,Dish Soap Pro,8,44.032
+10201,Storage Bins Mini,8,112.4
+10202,Trash Bags Max,8,84.864
+10203,All‑Purpose Cleaner Value Pack,8,101.136
+10204,Mop Refill Bundle,8,88.232
+10205,Air Freshener Eco,8,51.28
+10206,Batteries Premium,8,70.552
+10207,Sponges Sport,8,21.336
+10208,Trash Can Ultra,8,9.2
+10209,Water Filter Everyday,8,113.584
+10210,Laundry Detergent Basic,8,26.696
+10211,Paper Towels Plus,8,14.56
+10212,Dish Soap Pro,8,6.144
+10213,Storage Bins Mini,8,58.52
+10214,Trash Bags Max,8,97.824
+10215,All‑Purpose Cleaner Value Pack,8,59.504
+10216,Shampoo Basic,9,20.424
+10217,Conditioner Plus,9,36.04
+10218,Body Wash Pro,9,7.68
+10219,Toothpaste Mini,9,79.36
+10220,Hand Soap Max,9,84.96
+10221,Deodorant Value Pack,9,48.096
+10222,Face Cleanser Bundle,9,17.792
+10223,Lotion Eco,9,34.288
+10224,Razor Pack Premium,9,13.576
+10225,Sunscreen Sport,9,70.816
+10226,Hair Oil Ultra,9,11.4
+10227,Mouthwash Everyday,9,77.888
+10228,Shampoo Basic,9,102.712
+10229,Conditioner Plus,9,43.928
+10230,Body Wash Pro,9,8.88
+10231,Toothpaste Mini,9,70.208
+10232,Hand Soap Max,9,88.048
+10233,Deodorant Value Pack,9,11.632
+10234,Notebook Basic,10,29.824
+10235,Pen Set Plus,10,10.928
+10236,Sticky Notes Pro,10,23.992
+10237,Highlighters Mini,10,3.96
+10238,Printer Paper Max,10,16.744
+10239,Folders Value Pack,10,19.448
+10240,Desk Organizer Bundle,10,12.944
+10241,Planner Eco,10,21.88
+10242,Staples Premium,10,19.816
+10243,Index Cards Sport,10,12.096
+10244,Envelopes Ultra,10,29.048
+10245,Binder Clips Everyday,10,16.544
+10246,Notebook Basic,10,20.512
+10247,Pen Set Plus,10,30.128
+10196,Hiking Shoes Bundle,7,139.336
+10078,Pet Bed Pro,3,168.44
+10091,Pet Toy Mini,3,181.576
+10100,Dog Food Basic,3,37.384
+10166,RC Drone Toy Ultra,6,118.496
+10020,Tablet Eco,1,511.728
+10122,Massage Roller Bundle,4,129.216
+10079,Pet Toy Mini,3,178.36
+10163,Plush Toy Eco,6,74.032
+10060,Paint Kit Pro,2,40.584
+10173,Doll Set Value Pack,6,76.192
+10019,4K TV Bundle,1,730.64
+10073,LED Bulb Pack Mini,2,208.768
+10136,Sweater Bundle,5,110.552
+10193,Boots Mini,7,85.88
+10240,Desk Organizer Bundle,10,12.944
+10105,Protein Powder Plus,4,103.488
+10181,Boots Mini,7,230.312
+10106,Yoga Mat Pro,4,141.408
+10080,Dog Shampoo Max,3,116.16
+10220,Hand Soap Max,9,84.96
+10069,Ladder Everyday,2,604.84
+10124,Resistance Bands Premium,4,12.464
+10034,Noise‑Cancel Headphones Sport,1,383.064
+10130,T‑Shirt Basic,5,93.616
+10237,Highlighters Mini,10,1.95
+10182,Slippers Max,7,60.384
+10065,Wall Anchor Kit Eco,2,525.928
+10057,Ladder Everyday,2,422.472
+10217,Conditioner Plus,9,36.04
